@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-color: rgb(235, 237, 237);
+    font-family: 'Nunito', sans-serif;
+    min-width: 1000px;
+  }
+
