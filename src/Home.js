@@ -6,12 +6,7 @@ function Home() {
   return (
     <div className="home">
       <div className="home_container">
-        <img
-          className="home_image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
-          alt=""
-        />
-
+        <img className="home_image" src="prime.jpg" alt="" />
         <div className="home_row">
           <Product
             id="12321341"
@@ -19,6 +14,13 @@ function Home() {
             price={11.96}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+          />
+          <Product
+            id="23534594"
+            title="Logitech G G502 LIGHTSPEED Wireless Gaming Mouse"
+            price={239.0}
+            rating={4}
+            image="mouse.jpg"
           />
           <Product
             id="49538094"

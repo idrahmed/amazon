@@ -4,7 +4,7 @@ import StarRateIcon from "@material-ui/icons/StarRate";
 import { useStateValue } from "./StateProvider";
 
 function Product({ id, title, image, price, rating}) {
-  const [{ basket }, dispatch] = useStateValue()
+  const [{}, dispatch] = useStateValue()
 
   // action
   const addToBasket = () => {
@@ -36,6 +36,7 @@ function Product({ id, title, image, price, rating}) {
         </div>
       </div>
 
+      
       <img
         src={image}
         alt=""
